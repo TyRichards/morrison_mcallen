@@ -1,0 +1,192 @@
+/*************** Global Changes ************/
+
+body { background-color: #353535; font-weight: 400; }
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #063968;
+}
+
+a { color: #063968; }
+
+a:hover { text-decoration: none; }
+
+.btn-primary { background-color: #063968; border-color: transparent; }
+
+.text-primary { color: #063968; }
+
+a.text-primary:hover,
+a.text-primary:focus { color: #052746; }
+
+.section p { margin-top: 30px; }
+
+.content-section-b { background-color: #ffffff; }
+.content-section-a { background-color: #C5C5CA; }
+
+
+/****************************** Navbar *****************************/
+
+.mini-header { background-color: #353535; color: #bbb; }
+
+.mini-header .contact-info { margin: 2px auto; }
+
+.navbar-brand .logo {
+    /*width: 100%;*/
+    height: auto;
+    max-width: 179px;
+    max-height: 50px;
+    margin-top: -11px;
+}
+
+.navbar-default .nav li a { color: #063968; }
+
+.nav li a {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.navbar .topnav { padding: 10px; }
+
+.navbar-default { background-color: #ffffff; }
+
+/******************** Hero *********************/
+
+.intro-header {
+/*    padding-top: 50px;  If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! 
+    padding-bottom: 50px;
+    text-align: center; */
+    background: #353535 url(../img/bg.jpg) no-repeat center center;
+    /*background-size: cover;*/
+    /*opacity: 0.5;*/
+    background-attachment: fixed;
+}
+
+
+.intro-message h1 { font-size: 55px; color: #ffffff;}
+.intro-message h3 { color: #ffffff; }
+
+.big-arrow {
+    font-size: 260px!important;
+    color: #666666;
+    margin-top: -30px;
+    /*display: block!important;*/
+}
+
+.big-arrow:hover { color: #777; }
+
+
+/*** Products **/
+
+.category-cta {
+    text-transform: none;
+}
+
+.panel-default > .panel-heading {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.panel-heading { padding: 25px 0; }
+.panel-heading img { max-width: 100%; }
+
+.panel-body { padding: 25px; background-color: #eee; }
+.panel-body h3 { margin-top: 0px; margin-bottom: 19px; text-transform: none; font-size: 18px; font-weight: 400; }
+.panel-body h4 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 24px;
+    letter-spacing: 2px;
+}
+.panel-body .btn { margin-top: 5px; text-transform: uppercase; }
+.panel-body p { margin-top: 0; }
+
+.showroom-nav { margin-bottom: 40px; }
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background-color: #063968;
+}
+
+/******************** Footer *********************/
+
+.banner h2 { color: #ffffff; }
+
+.section-heading-spacer { float: none; }
+
+/******************** Footer *********************/
+
+.primary-info { margin-top: 45px; }
+
+.info-divider { margin: 0 10px; }
+
+
+
+/******************** Responsive *********************/
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    
+    h2.section-heading {
+        font-size: 50px!important;
+    }
+    
+    .intro-message {
+        padding-top: 18%;
+        padding-bottom: 0%;
+    }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .showroom-nav .nav-pills li a { text-align: center; }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    
+}

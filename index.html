@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Landing Page - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- SMOOTH SCROLL -->
+    // <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    // <script>
+    // $(function() {
+    //   $('a[href*=#]:not([href=#])').click(function() {
+    //     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+    //       var target = $(this.hash);
+    //       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+    //       if (target.length) {
+    //         $('html,body').animate({
+    //           scrollTop: target.offset().top
+    //         }, 300);
+    //         return false;
+    //       }
+    //     }
+    //   });
+    // });
+    // </script>   
+
+</head>
+
+<body>
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+
+        <!-- Mini Header -->
+        <div class="container-fluid mini-header hidden-xs">  
+            <div class="container">  
+                <ul class="contact-info list-inline navbar-right">                        
+                    <li class="small">6867 Wynnwood Ln, Houston, TX 77008</li>
+                </ul>            
+            </div>
+        </div>     
+
+        <div class="container topnav">    
+               
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#">
+                    <img class="logo" src="img/logo.png" alt="Morrison Supply Company">                    
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#showroom">Our Showroom</a></li> 
+                    <li><a href="#location">Location</a></li>                    
+                    <li><a href="">(713) 861-2343</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Header -->
+    <div class="intro-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>The Largest Selection in Houston</h1>
+                        <h3>Electrolux<span class="small">&reg;</span> & Frigidare<span class="small">&reg;</span> appliances</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="#showroom" class="btn btn-default btn-lg"><i class="fa fa-home fa-fw"></i> <span class="network-name"> View Our Showroom</span></a>
+                            </li>
+                            <li>
+                                <a href="" class="btn btn-warning btn-lg"><i class="fa fa-phone fa-fw"></i> <span class="network-name"> Call (713) 861-2343</span></a>
+                            </li>  
+                            <br>
+                            <a href="#showroom"><span class="fa fa-angle-down big-arrow"></span></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+    <div id="showroom" class="section content-section-a">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <hr class="section-heading-spacer"><div class="clearfix"></div>                    
+                    <h2 class="section-heading">Our Showroom</h2>
+                    <p class="">
+                        You're invited to experience our showroom right here in heart of Houston or one of our <a href="#" target="_blank">various locations</a>. Our showroom has all of the latest Electrolux & Frigidaire appliances.
+                    </p>
+                    <br>
+                </div>
+            </div>
+
+            <!-- Tab Nav --> 
+            <div class="showroom-nav row">                                 
+                <ul class="nav nav-pills" role="tablist">
+                    <li role="presentation" class="active"><a href="#refridgerators" aria-controls="refridgerators" role="tab" data-toggle="tab">Refridgerators</a></li>
+                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Ovens</a></li>
+                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Laundry</a></li>
+                    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Etc</a></li>
+                </ul>                
+            </div>
+            
+            
+            <div class="showroom-main col-sm-12 col-md-12">                    
+                
+                <!-- Tab Content -->
+                <div class="row tab-content">                        
+                    <div role="tabpanel" class="tab-pane active" id="refridgerators">
+                        <div class="col-sm-6 col-md-3">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <img class="img-responsive" src="img/electrolux1.jpg" alt="">
+                                </div>
+                                <div class="panel-body">
+                                    <h3 class="">Title</h3>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lectus eros, luctus et enim vitae, placerat suscipit leo. Sed molestie accumsan porttitor. Duis viverra feugiat faucibus. Morbi fringilla diam nec varius gravida. Nullam vel quam vel orci rhoncus suscipit. Curabitur rhoncus tristique finibus. 
+                                    <a class="btn btn-primary btn-lg btn-block">Call (713) 861-2343</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-sm-3">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <img class="img-responsive" src="img/electrolux1.jpg" alt="">
+                                </div>
+                                <div class="panel-body">
+                                    <h3 class="">Title</h3>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lectus eros, luctus et enim vitae, placerat suscipit leo. Sed molestie accumsan porttitor. Duis viverra feugiat faucibus. Morbi fringilla diam nec varius gravida. Nullam vel quam vel orci rhoncus suscipit. Curabitur rhoncus tristique finibus. 
+                                </div>
+                            </div>
+                        </div>                
+                        <div class="col-sm-6 col-sm-3">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <img class="img-responsive" src="img/electrolux1.jpg" alt="">
+                                </div>
+                                <div class="panel-body">
+                                    <h3 class="">Title</h3>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lectus eros, luctus et enim vitae, placerat suscipit leo. Sed molestie accumsan porttitor. Duis viverra feugiat faucibus. Morbi fringilla diam nec varius gravida. Nullam vel quam vel orci rhoncus suscipit. Curabitur rhoncus tristique finibus. 
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="col-sm-6 col-sm-3">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <img class="img-responsive" src="img/electrolux1.jpg" alt="">
+                                </div>
+                                <div class="panel-body">
+                                    <h3 class="">Title</h3>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lectus eros, luctus et enim vitae, placerat suscipit leo. Sed molestie accumsan porttitor. Duis viverra feugiat faucibus. Morbi fringilla diam nec varius gravida. Nullam vel quam vel orci rhoncus suscipit. Curabitur rhoncus tristique finibus. 
+                                </div>
+                            </div>
+                        </div>      
+                    </div> <!-- .tab-pane -->
+
+                    <div role="tabpanel" class="tab-pane" id="profile">
+                        Ovens
+                    </div> <!-- .tab-pane -->
+
+                    <div role="tabpanel" class="tab-pane" id="messages">
+                        Laundry
+                    </div> <!-- .tab-pane -->
+
+                    <div role="tabpanel" class="tab-pane" id="settings">
+                        Etc
+                    </div> <!-- .tab-pane -->
+                </div>                                                                 
+                
+            </div><!-- .showroom-content -->
+        </div><!-- /.container -->
+    </div><!-- /.content-section-b -->
+
+    <div id="location" class="section content-section-b">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <hr class="section-heading-spacer"><div class="clearfix"></div>                    
+                    <h2 class="section-heading">Our Location</h2>
+                    <br>
+                </div>
+            </div>            
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0">
+                    <img class="img-responsive" src="img/morrison-logo.png" alt="">
+                    <p>
+                        <a href="" class="btn btn-primary"><span class="network-name">(713) 861-2343</span></a>
+                        <a href="https://goo.gl/maps/GnFgV" target="_blank" class="btn btn-primary"><span class="network-name">Get Directions</span></a>
+                    </p>
+                    <p>                       
+                        6867 Wynnwood Ln, Houston, TX 77008
+                    </p>                    
+                    <p>
+                        <h4>Store Hours</h4>
+                        <table class="table table-condensed text-muted">
+                            <thead>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Monday</th>
+                                    <td>9:00 am - 5:00 pm</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Tuesday</th>
+                                    <td>9:00 am - 5:00 pm</td>        
+                                </tr>
+                                <tr>
+                                    <th scope="row">Wednesday</th>
+                                    <td>9:00 am - 5:00 pm</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Thursday</th>
+                                    <td>9:00 am - 5:00 pm</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Friday</th>
+                                    <td>9:00 am - 5:00 pm</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Saturday</th>
+                                    <td>Closed</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Sunday</th>
+                                    <td>Closed</td>
+                                </tr>                                
+                            </tbody>
+                        </table>
+                    </p>
+                </div>                        
+                <div class="col-md-8 hidden-xs hidden-sm">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d55399.38362369195!2d-95.47836843131624!3d29.793209550303587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0x8640c6e75152a6d3%3A0x1920196c915717e1!2s6867+Wynnwood+Ln%2C+Houston%2C+TX+77008!3m2!1d29.7932147!2d-95.44137459999999!5e0!3m2!1sen!2sus!4v1441319401756" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div><!-- /.container -->
+    </div><!-- /.content-section-b -->
+
+	<a  name="contact"></a>
+    <div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2>Visit our store</h2>
+                </div>
+                <div class="col-lg-8">
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="https://goo.gl/maps/aNqdg" target="_blank" class="btn btn-warning btn-lg"><i class="fa fa-map-marker fa-fw"></i> <span class="network-name">Map / Directions</span></a>
+                        </li>                         
+                        <li>
+                            <a href="" class="btn btn-default btn-lg"><i class="fa fa-phone fa-fw"></i> <span class="network-name">(713) 861-2343</span></a>
+                        </li>                        
+                        <li>
+                            <a href="https://twitter.com/morrisonsupply" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="https://facebook.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <ul class="list-inline">
+                        <li><a href="#showroom">Our Showroom</a></li>
+                        <li class="footer-menu-divider">|</li> 
+                        <li><a href="https://goo.gl/maps/aNqdg" target="_blank">Map & Directions</a></li>
+                        <li class="footer-menu-divider">|</li>
+                        <li><a href="#location">Location</a></li>
+                    </ul>
+                    <p class="primary-info text-muted">
+                        (713) 861-2343
+                        <span class="info-divider">|</span>
+                        6867 Wynnwood Ln, Houston, TX 77008
+                    </p>
+                    <p class="copyright text-muted small">&copy; 2015 Morrison Supply Company</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- js -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
